@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+    	<meta charset="utf-8">
+    	<meta name="description" content="This is where your description goes">
+    	<meta name="keywords" content="one, two, three">
+
+		<title>Title in the tab</title>
+
+		<!-- external CSS link -->
+		<link rel="stylesheet" href="css/normalize.css">
+		<link rel="stylesheet" href="css/style.css">
+	</head>
+	<body>
+		<div class="container">
+			<h1>Fantastic Mocktails</h1>
+
+			<p>What would you like in your mocktail?</p>
+			<input type="text" id="user-input">
+			<button id="search">SEARCH</button>
+			<div id="matches">
+	<!--append img here with src of the matching cocktail-->
+			</div>
+			
+			<div id="cocktail-info" class="hidden">
+				<a href="#" id="modal-close"class="close"></a>
+				<h2 id="title"></h2>
+				<img class="img" src="" id="cocktail-img">
+
+				<h3>Ingredients</h3>
+				<ul id="ingredients"></ul>
+				
+				<h3>Instructions</h3>
+				<p id="instructions"></p>
+
+				
+				<div class="wrapper">
+					<button id="set-save">Save</button>
+				</div>
+			</div>
+		</div>
+	<div class="container savedBtn">
+		<button id="get-save">Saved Cocktails</button>
+		<ul id="saved-list"></ul>
+	</div>
+
+
+		<script type="text/javascript" src="js/main.js"></script>
+	</body>
+</html>
